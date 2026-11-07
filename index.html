@@ -1,33 +1,62 @@
 <!doctype html>
-<!-- index.html: the Serac support page (site/). Copied to the public getserac/getserac.github.io repo and served by
-     GitHub Pages; its address is the App Store "Support URL". Keep the contact address current. -->
+<!-- index.html: the Serac landing page (site/), the first address people share. Copied to the public
+     getserac/getserac.github.io repo and served by GitHub Pages. Support lives in support.html, the policy in
+     privacy.html. Sign-ups are mailto links, not a form: no third-party service ever sees a visitor's address
+     (DECISIONS.md, 2026-11-07). Plain HTML and CSS, no scripts, no external requests. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Serac Support</title>
+<title>Serac: digital security, one step at a time</title>
+<meta name="description" content="Simple, guided Activities that lower the risks to your accounts, devices, and personal information. No tech experience required. Coming soon to iPhone.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<main>
-<nav><a href="privacy.html">Privacy policy</a></nav>
+<main class="wide">
+<nav><a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a></nav>
+
+<header class="hero">
 <h1>Serac</h1>
-<p>Simple, guided Activities that lower the risks to your accounts, devices, and personal information. No tech experience required.</p>
-
-<h2>Get help</h2>
-<div class="card">
-<p>Questions, a step that doesn't match your screen, or a link that no longer works? Email <a href="mailto:getserac@gmail.com">getserac@gmail.com</a>. Tell us which Activity and step, and your iPhone's iOS version (Settings › General › About).</p>
-<p>Please never send passwords, sign-in codes, or account details. Serac never needs them.</p>
+<p class="lede">Simple, guided Activities that lower the risks to your accounts, devices, and personal information. No tech experience required.</p>
+<p class="badge">Coming soon to iPhone</p>
+<div class="actions">
+<a class="button" href="mailto:getserac@gmail.com?subject=Tell%20me%20when%20Serac%20launches">Tell me when it launches</a>
+<a class="button secondary" href="mailto:getserac@gmail.com?subject=Serac%20early%20test">Try it early</a>
 </div>
+</header>
 
-<h2>Common questions</h2>
+<section class="features">
 <div class="card">
-<p><strong>Does Serac check my settings?</strong><br>No. iPhone apps can't see other apps' or Apple's settings. You mark each Activity as done, so your Defense score is an estimate based on what you've marked, not a guarantee.</p>
-<p><strong>Where is my progress stored?</strong><br>Only on your iPhone. Serac has no account and no servers. If you back up your iPhone, your progress is included in that backup.</p>
-<p><strong>How do I start over?</strong><br>Profile › Settings › Reset all progress. You can replay the app tour from the same screen.</p>
-<p><strong>How do I turn reminders on or off?</strong><br>Profile › Settings. Serac sends at most one reminder a day.</p>
-<p><strong>Will this make me completely safe?</strong><br>No app can. Each Activity lowers a specific risk.</p>
+<h2>One step at a time</h2>
+<p>Each Activity walks you through a change in your iPhone's settings or your accounts, in plain English. Most take minutes.</p>
 </div>
+<div class="card">
+<h2>See your progress</h2>
+<p>Your Defense score rises as you finish Activities. It's an estimate based on what you mark as done, not a guarantee.</p>
+</div>
+<div class="card">
+<h2>Private by design</h2>
+<p>No account and no servers. The app never connects to the internet, and your progress stays on your iPhone.</p>
+</div>
+</section>
+
+<section class="shots" aria-label="Screenshots">
+<img src="img/welcome.jpg" width="600" height="1304" alt="Serac's welcome screen">
+<img src="img/home.jpg" width="600" height="1304" alt="Home, showing the Defense score and the next Activity">
+<img src="img/step.jpg" width="600" height="1304" alt="One step of an Activity, with where to find the setting">
+<img src="img/upkeep.jpg" width="600" height="1304" alt="Upkeep, counting down to each Activity's next refresh">
+</section>
+
+<section class="card">
+<h2>Want to try it before launch?</h2>
+<p>We're looking for a small group to test Serac on their iPhone and tell us what's confusing. <a href="mailto:getserac@gmail.com?subject=Serac%20early%20test">Email us to join the test</a>. You'll need an iPhone and a few minutes now and then.</p>
+</section>
+
+<p class="honest">No app can make anyone completely safe. Each Activity lowers a specific risk.</p>
+
+<footer>
+<a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a> · <a href="mailto:getserac@gmail.com">getserac@gmail.com</a>
+</footer>
 </main>
 </body>
 </html>
